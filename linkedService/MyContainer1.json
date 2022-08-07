@@ -1,0 +1,18 @@
+{
+	"name": "MyContainer1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"sasUri": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "storage3802-SASURL",
+				"secretVersion": "d9664d8b3af047efa0a6f767401e08a6"
+			}
+		}
+	}
+}
