@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobStorage2",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://storage3802.blob.core.windows.net/",
+			"accountKind": "StorageV2"
+		}
+	}
+}
